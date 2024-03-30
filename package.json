@@ -1,6 +1,6 @@
 {
   "name": "react-weblineindia-ck-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple, native and easy-to-use WYSIWYG / Rich Text editor built in Quill.js and React.js",
   "author": "weblineindia",
   "license": "MIT",
