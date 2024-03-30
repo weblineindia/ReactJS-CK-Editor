@@ -48,25 +48,28 @@ class Test extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      editorHtml :''
-    }
-    handleChange(html){
-      this.setState({
-        editorHtml : html
-      })
-    }
-    render(){
-      return(
-        <div>
-         <Editor
+      editorHtml: "",
+    };
+  }
+
+  handleChange(html) {
+    this.setState({
+      editorHtml: html,
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <Editor
           onChange={this.handleChange.bind(this)}
           value={this.state.editorHtml}
-          bounds={".app"}
+          bounds=".app"
           placeholder="Type Something"
         />
-        </div>
-      )
-    }
+      </div>
+    );
+  }
 }
 export default Test;
 
